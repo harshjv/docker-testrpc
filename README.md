@@ -15,11 +15,11 @@
 
 Start testrpc daemon;
 
-    docker run -d -p 8545:8545 testrpc
+    docker run -d -p 8545:8545 harshjv/testrpc
 
 Or provide command-line options;
 
-    docker run -d -p 8545:8545 testrpc --gasPrice 0
+    docker run -d -p 8545:8545 harshjv/testrpc --gasPrice 0
 
 See [`testrpc`](https://github.com/ethereumjs/testrpc) for available options.
 
