@@ -1,4 +1,4 @@
-FROM node:6.9
+FROM node:8
 RUN npm install -g ethereumjs-testrpc
 EXPOSE 8545
 ENTRYPOINT [ "testrpc" ]
