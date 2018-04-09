@@ -2,7 +2,7 @@
 
 ## Details
 
-* Node.js (~6.9.0)
+* Node.js (8.x)
 * testrpc (latest)
 
 
